@@ -20,3 +20,6 @@ You also can try to run online by clicking on any notebook below to open it dire
 - [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](xxxx) mclaughlin_limit
 - [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](xxxx) mclaughlin
 
+## Article
+
+The article, including all details about the algorithm, was submitted to Mining, Metallurgy & Exploration SME’s journal (https://link.springer.com/journal/42461)
