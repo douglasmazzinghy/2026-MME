@@ -1,4 +1,4 @@
-# ython code for open-pit mine scheduling problem using a sequential decomposition algorithm
+# Python code for open-pit mine scheduling problem using a sequential decomposition algorithm
 
 To run the Jupyter Notebooks locally on your computer, download the folder of the dataset you want to run.
 
