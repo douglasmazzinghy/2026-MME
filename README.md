@@ -1,4 +1,4 @@
-# Open-Pit Mine Scheduling Optimisation with Python
+# ython code for open-pit mine scheduling problem using a sequential decomposition algorithm
 
 To run the Jupyter Notebooks locally on your computer, download the folder of the dataset you want to run.
 
@@ -19,6 +19,8 @@ You also can try to run online by clicking on any notebook below to open it dire
 - [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](xxxx) sm2
 - [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](xxxx) mclaughlin_limit
 - [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](xxxx) mclaughlin
+
+---
 
 ## Article
 
