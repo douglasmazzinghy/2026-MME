@@ -4,8 +4,6 @@ To run the Jupyter Notebooks locally on your computer, download the folder of th
 
 You also can try to run online by clicking on any notebook below to open it directly in Google Colab.  
 
----
-
 ## MineLib Datasets
 
 - [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](xxxx) newman1
@@ -19,8 +17,6 @@ You also can try to run online by clicking on any notebook below to open it dire
 - [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](xxxx) sm2
 - [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](xxxx) mclaughlin_limit
 - [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](xxxx) mclaughlin
-
----
 
 ## Article
 
