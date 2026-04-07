@@ -1,7 +1,9 @@
-# Open-Pit Mine Scheduling Optimization with Python
+# Open-Pit Mine Scheduling Optimisation with Python
 
-Click on any notebook below to open it directly in Google Colab.  
-No local installation is required.
+To run the Jupyter Notebooks locally on your computer, download the folder of the dataset you want to run.
+
+You also can try to run online using Google Colab. Click on any notebook below to open it directly in Google Colab.  
+In this case, no local installation is required.
 
 ---
 
