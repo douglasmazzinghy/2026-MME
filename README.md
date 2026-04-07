@@ -2,11 +2,21 @@
 
 To run the Jupyter Notebooks locally on your computer, download the folder of the dataset you want to run.
 
-You also can try to run online using Google Colab. Click on any notebook below to open it directly in Google Colab.  
-In this case, no local installation is required.
+You also can try to run online by clicking on any notebook below to open it directly in Google Colab.  
 
 ---
 
 ## MineLib Datasets
 
-- [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/douglasmazzinghy/2026-SBPO/blob/main/mclaughlin.ipynb) mclaughlin  
+- [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](xxxx) newman1
+- [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](xxxx) zuck_small
+- [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](xxxx) kd
+- [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](xxxx) zuck_medium
+- [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](xxxx) p4hd
+- [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](xxxx) marvin
+- [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](xxxx) w23
+- [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](xxxx) zuck_large
+- [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](xxxx) sm2
+- [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](xxxx) mclaughlin_limit
+- [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](xxxx) mclaughlin
+
