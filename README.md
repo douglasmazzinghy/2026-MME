@@ -13,11 +13,11 @@ You also can try to run online by clicking on any notebook below to open it dire
 - [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1VXDxY2YxmwDXmBSApdUtWpr_7XNIKm9R?authuser=1#scrollTo=3644a0f0-4f17-4406-ba05-394c7adaee1e) p4hd
 - [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1t1x-U1ykp2gNtg0JhKff7gDnKSEIVSN1?authuser=1#scrollTo=3644a0f0-4f17-4406-ba05-394c7adaee1e) marvin
 - [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1A8MfyiUw2cEvdYl9I8YIlYXXy_eMgYQO?authuser=1#scrollTo=3644a0f0-4f17-4406-ba05-394c7adaee1e) w23
-- [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](xxxx) zuck_large
+- [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1n2jqCJtrUGpWSqV2GbD_6Ohv-wFVK2cc?authuser=1#scrollTo=13fd46bb-e876-4452-85c6-37d1d4bc0b62) zuck_large
 - [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](xxxx) sm2
 - [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](xxxx) mclaughlin_limit
 - [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](xxxx) mclaughlin
 
 ## Article
 
-The article, including all details about the algorithm, was submitted to Mining, Metallurgy & Exploration SME’s journal (https://link.springer.com/journal/42461)
+The article, including all details about the algorithm, was submitted to Mining, Metallurgy & Exploration SME’s journal (https://link.springer.com/journal/42461) in May 2026.
