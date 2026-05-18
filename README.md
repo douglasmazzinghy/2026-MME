@@ -1,8 +1,8 @@
 # Python code for open-pit mine scheduling problem using a sequential decomposition algorithm
 
-To run the Jupyter Notebooks locally on your computer, download the folder of the dataset you want to run.
+To run the Jupyter Notebooks locally on your computer, download the dataset you want to run and put them on the corresponding folder.
 
-You also can try to run online by clicking on any notebook below to open it directly in Google Colab.  
+You also can try to run online by clicking on any notebook below to open it directly in Google Colab. It will be necessary to upload the datasets and the Gurobi licence if you want to run the code faster. 
 
 ## MineLib Datasets
 
