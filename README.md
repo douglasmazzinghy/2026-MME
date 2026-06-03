@@ -1,6 +1,6 @@
 # Python code for open-pit mine scheduling problem using a sequential decomposition algorithm
 
-To run the Jupyter Notebooks locally on your computer, download the dataset you want to run and put them on the corresponding folder.
+To run the Jupyter Notebooks locally on your computer, download the dataset you want to run (https://mansci-web.uai.cl/minelib/Datasets.xhtml) and put them on the corresponding folder.
 
 You also can try to run online by clicking on any notebook below to open it directly in Google Colab. It will be necessary to upload the datasets. 
 
@@ -20,4 +20,4 @@ You also can try to run online by clicking on any notebook below to open it dire
 
 ## Article
 
-The article, including all details about the algorithm, was submitted to Mining, Metallurgy & Exploration SME’s journal (https://link.springer.com/journal/42461) in May 2026.
+The article, including all details about the algorithm, was submitted to Mining, Metallurgy & Exploration SME’s journal (https://link.springer.com/journal/42461) in June 2026.
