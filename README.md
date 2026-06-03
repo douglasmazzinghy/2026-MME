@@ -21,5 +21,3 @@ You also can try to run online by clicking on any notebook below to open it dire
 ## Article
 
 The article, including all details about the algorithm, was submitted to Mining, Metallurgy & Exploration SME’s journal (https://link.springer.com/journal/42461) in June 2026.
-
-https://colab.research.google.com/drive/1Shh-8y4I8ffcChs2dRgBozqco6KpXrkA?authuser=1#scrollTo=ebaff43a-e4c0-40bb-958e-c4d4d4918f37
