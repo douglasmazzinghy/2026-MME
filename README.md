@@ -6,7 +6,7 @@ You also can try to run online by clicking on any notebook below to open it dire
 
 ## MineLib Datasets
 
-- [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1jJ-JNpg2mDSktdqmrAjZsYIKSVlR-I9_?authuser=1) newman1
+- [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/douglasmazzinghy/2026-MME/blob/main/01_newman1/newman1.ipynb) newman1
 - [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1uDp3maNrai7QOJqhz3EfKp-1DO31aZ4T?authuser=1#scrollTo=be29b47f-5da6-40f1-8db1-849f5a9b74f6) zuck_small
 - [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/14IX7K9Li57pvYYaGgG4Ba6uyog-SUqyn?authuser=1) kd
 - [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/14FH7tNTIApEK1OpTZleOwbaHgvoSuR_H?authuser=1) zuck_medium
