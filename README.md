@@ -20,4 +20,4 @@ You also can try to run online by clicking on any notebook below to open it dire
 
 ## Article
 
-The article, including all details about the algorithm, was submitted to Mining, Metallurgy & Exploration SME’s journal (https://link.springer.com/journal/42461) in June 2026.
+The article, including all details about the algorithm, was submitted to Mining, Metallurgy & Exploration SME’s journal (https://link.springer.com/journal/42461) in August 2026.
