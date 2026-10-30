@@ -1,0 +1,26 @@
+LP has 24604 rows; 6360 cols; 180876 nonzeros
+Coefficient ranges:
+  Matrix  [1e+00, 6e+03]
+  Cost    [5e+00, 2e+05]
+  Bound   [1e+00, 1e+00]
+  RHS     [1e+00, 2e+06]
+WARNING: Problem has some excessively large row bounds
+WARNING:    Consider scaling the    bounds by 1e-1, or setting the user_bound_scale option to -1
+Presolving model
+24603 rows, 6354 cols, 180864 nonzeros 0s
+24603 rows, 6354 cols, 180864 nonzeros 0s
+Presolve reductions: rows 24603(-1); columns 6354(-6); nonzeros 180864(-12) 
+Solving the presolved LP
+Using dual simplex solver
+  Iteration        Objective     Infeasibilities num(sum)
+          0     0.0000000000e+00 Ph1: 0(0) 0.2s
+       6017    -2.4486184091e+07 Pr: 0(0) 4.0s
+
+Performed postsolve
+Solving the original LP from the solution after postsolve
+
+Model status        : Optimal
+Simplex   iterations: 6017
+Objective value     :  2.4486184091e+07
+P-D objective error :  5.3248459335e-16
+HiGHS run time      :          4.07
