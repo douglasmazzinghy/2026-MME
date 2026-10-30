@@ -1,0 +1,4 @@
+Method,NPV,Gap to UB (%),Solver bound,Solver MIP gap (%),Opt Time (s),Gurobi log
+SD-CPIT,847050785.3921952,,,,87.88988828659058,zuck_small_gurobi_sdcpit.log
+CPIT LP (UB),,,,0.0,3633.291111946106,zuck_small_gurobi_cpit_relaxed.log
+"CPIT integer (3,600 s)",35486811.946233995,,15082006449.965,42400.31384283187,3622.0961203575134,zuck_small_gurobi_cpit_gap1e-4.log

@@ -1,0 +1,100 @@
+
+Gurobi 13.0.3 (win64) logging started Fri Oct 30 10:17:31 2026
+
+Set parameter LogFile to value "C:\Users\dougl\Dropbox\Douglas-UFMG\Coding\2026-MME\MME Review 1\tests reviewers\zuck_small_sdcpit_vs_cpit_gurobi\zuck_small_gurobi_cpit_relaxed.log"
+Warning for adding constraints: zero or small (< 1e-13) coefficients, ignored
+Set parameter NodeLimit to value 1073741824
+Set parameter SolutionLimit to value 1073741824
+Set parameter IntFeasTol to value 1e-06
+Set parameter FeasibilityTol to value 1e-06
+Set parameter OptimalityTol to value 1e-06
+Set parameter Method to value 3
+Set parameter Seed to value 0
+Set parameter PoolSolutions to value 10
+Set parameter MIPGap to value 0.0001
+Set parameter MIPGapAbs to value 1e-10
+Gurobi Optimizer version 13.0.3 build v13.0.3rc0 (win64 - Windows 11+.0 (26200.2))
+
+CPU model: Intel(R) Core(TM) Ultra 7 155H, instruction set [SSE2|AVX|AVX2]
+Thread count: 16 physical cores, 22 logical processors, using up to 22 threads
+
+Non-default parameters:
+NodeLimit  1073741824
+SolutionLimit  1073741824
+TimeLimit  3600
+IntFeasTol  1e-06
+Method  3
+
+Optimize a model with 2922240 rows, 188000 columns and 61641980 nonzeros (Max)
+Model fingerprint: 0x1c5820da
+Model has 188000 linear objective coefficients
+Coefficient statistics:
+  Matrix range     [3e-01, 7e+04]
+  Objective range  [1e-03, 1e+06]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 6e+07]
+
+Presolve removed 641 rows and 20 columns (presolve time = 8s)...
+Presolve removed 641 rows and 20 columns (presolve time = 10s)...
+Presolve removed 641 rows and 20 columns
+Presolve time: 24.72s
+Presolved: 187980 rows, 3109579 columns, 61816460 nonzeros
+
+Concurrent LP optimizer: primal simplex, dual simplex, and barrier
+Showing barrier log only...
+
+Elapsed ordering time = 40s
+Elapsed ordering time = 45s
+Elapsed ordering time = 50s
+Elapsed ordering time = 60s
+Elapsed ordering time = 62s
+Elapsed ordering time = 66s
+Elapsed ordering time = 70s
+Elapsed ordering time = 76s
+Elapsed ordering time = 80s
+Elapsed ordering time = 92s
+Elapsed ordering time = 95s
+Elapsed ordering time = 100s
+Elapsed ordering time = 107s
+Elapsed ordering time = 110s
+Elapsed ordering time = 115s
+Ordering time: 116.45s
+
+Barrier statistics:
+ Dense cols : 40
+ AA' NZ     : 6.031e+07
+ Factor NZ  : 5.071e+09 (roughly 40.0 GB of memory)
+ Factor Ops : 2.123e+14 (roughly 800 seconds per iteration)
+ Threads    : 14
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0   1.10356427e+11  0.00000000e+00  9.28e+04 0.00e+00  1.13e+06   166s
+   1   8.28572473e+10 -2.04592394e+08  5.94e+04 1.31e+03  6.72e+05   167s
+   2   6.45401410e+10 -3.10500976e+08  3.69e+04 1.74e+03  4.31e+05   168s
+   3   4.80565766e+10 -4.69812573e+08  2.01e+04 1.42e+03  2.54e+05   169s
+   4   4.43334365e+10 -4.01564283e+08  1.49e+04 1.21e+03  1.97e+05   171s
+   5   3.97726295e+10 -2.97133306e+08  1.07e+04 1.04e+03  1.47e+05   172s
+   6   3.66699149e+10 -1.71184755e+08  6.89e+03 8.59e+02  1.05e+05   174s
+   7   3.48356619e+10  2.21209505e+05  4.33e+03 6.10e+02  7.24e+04   176s
+   8   2.99585279e+10  1.72673086e+08  1.90e+03 3.17e+02  3.67e+04   178s
+   9   2.31062290e+10  2.83358182e+08  7.86e+02 1.63e+02  1.87e+04   181s
+  10   1.58743470e+10  3.56226279e+08  3.33e+02 7.08e+01  8.61e+03   186s
+  11   8.89967133e+09  3.92321714e+08  1.27e+02 3.52e+01  3.83e+03   193s
+  12   5.28509782e+09  4.27775686e+08  6.18e+01 1.66e+01  1.86e+03   204s
+  13   3.85302565e+09  4.49558196e+08  4.00e+01 1.18e+01  1.24e+03   218s
+  14   2.95848800e+09  4.67339555e+08  2.76e+01 9.14e+00  8.79e+02   232s
+  15   2.01533185e+09  4.91420335e+08  1.46e+01 7.23e+00  5.26e+02   248s
+  16   1.62159449e+09  5.58369970e+08  9.49e+00 4.62e+00  3.54e+02   270s
+  17   1.31464598e+09  5.82673086e+08  5.87e+00 3.85e+00  2.42e+02   716s
+  18   1.11685275e+09  6.14594194e+08  3.34e+00 3.26e+00  1.65e+02  1587s
+  19   1.03556033e+09  6.51147425e+08  2.43e+00 2.53e+00  1.25e+02  2393s
+  20   9.78959735e+08  6.92074361e+08  1.64e+00 1.77e+00  9.23e+01  3203s
+
+Barrier performed 20 iterations in 3629.68 seconds (2884.99 work units)
+Barrier solve interrupted - model solved by another algorithm
+
+
+
+Stopped in 112559 iterations and 3632.71 seconds (5942.01 work units)
+Time limit reached
