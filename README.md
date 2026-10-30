@@ -7,6 +7,7 @@ Sequential decomposition algorithm (SD-CPIT) for the Constrained Pit Limit Probl
 | Folder | Contents |
 |---|---|
 | `01_newman1` to `11_mclaughlin` | One folder per MineLib instance: notebook (executed, with outputs), block model (`.blocks`), precedences (`.prec`), schedule obtained (`<instance>_solution.csv`), 3D plot (`<instance>_plot.html`) and production chart (`<instance>_results.png`) |
+| `01_newman1/Gurobi`, `01_newman1/HiGHS`, `01_newman1/CBC` | Comparison, for `newman1`, of SD-CPIT with the complete multi-period model (LP relaxation and integer model with relative MIP gaps of 1E-4 and 1E-6), solved with each solver: notebook, solutions, comparison tables and solver logs |
 | `schedule_validation` | Independent feasibility check of all the schedules against the official MineLib files (see below) |
 | `Results_Summary.xlsx` | Summary of the results (Table 2 of the article) |
 
@@ -17,6 +18,10 @@ Sequential decomposition algorithm (SD-CPIT) for the Constrained Pit Limit Probl
 3. The subproblems are solved with Gurobi when a licence is available; otherwise the code uses the open-source solvers HiGHS or CBC, distributed with Python-MIP.
 
 The column `period` of `<instance>_solution.csv` gives the extraction period of each block (periods numbered from 0; empty = not extracted).
+
+### Comparison with the complete model (`newman1`)
+
+The folders `Gurobi`, `HiGHS` and `CBC` inside `01_newman1` contain the same notebook solved with each solver. Each notebook reads `newman1.blocks` and `newman1.prec` from its own folder. The CBC log is written by the solver to the console window that started Jupyter, so the `.log` files of CBC may be empty on Windows; the results are printed in the notebook.
 
 ### Files of `11_mclaughlin`
 
