@@ -7,7 +7,7 @@ Sequential decomposition algorithm (SD-CPIT) for the Constrained Pit Limit Probl
 | Folder | Contents |
 |---|---|
 | `01_newman1` to `11_mclaughlin` | One folder per MineLib instance: notebook (executed, with outputs), block model (`.blocks`), precedences (`.prec`), schedule obtained (`<instance>_solution.csv`), 3D plot (`<instance>_plot.html`) and production chart (`<instance>_results.png`) |
-| `01_newman1/Gurobi`, `01_newman1/HiGHS`, `01_newman1/CBC` | Comparison, for `newman1`, of SD-CPIT with the complete multi-period model (LP relaxation and integer model with relative MIP gaps of 1E-4 and 1E-6), solved with each solver: notebook, solutions, comparison tables and solver logs |
+| Subfolders of `01_newman1` and `02_zuck_small` | Additional tests: SD-CPIT with the open-source solvers and comparison with the complete multi-period model (see below) |
 | `schedule_validation` | Independent feasibility check of all the schedules against the official MineLib files (see below) |
 | `Results_Summary.xlsx` | Summary of the results (Table 2 of the article) |
 
@@ -19,9 +19,20 @@ Sequential decomposition algorithm (SD-CPIT) for the Constrained Pit Limit Probl
 
 The column `period` of `<instance>_solution.csv` gives the extraction period of each block (periods numbered from 0; empty = not extracted).
 
-### Comparison with the complete model (`newman1`)
+### Additional tests (`newman1` and `zuck_small`)
 
-The folders `Gurobi`, `HiGHS` and `CBC` inside `01_newman1` contain the same notebook solved with each solver. Each notebook reads `newman1.blocks` and `newman1.prec` from its own folder. The CBC log is written by the solver to the console window that started Jupyter, so the `.log` files of CBC may be empty on Windows; the results are printed in the notebook.
+Each subfolder is named after its notebook and contains the notebook (executed, with outputs), copies of the `.blocks` and `.prec` files read by the notebook, the solutions, the comparison tables (when there are any), and the solver logs.
+
+| Subfolder | Content |
+|---|---|
+| `01_newman1/newman1_sdcpit_vs_cpit_gurobi` | SD-CPIT, LP relaxation of the complete model, and complete integer model with relative MIP gaps of 1E-4 and 1E-6, solved with Gurobi |
+| `01_newman1/newman1_sdcpit_vs_cpit_highs` | Same as above, solved with HiGHS |
+| `01_newman1/newman1_sdcpit_vs_cpit_cbc` | Same as above, solved with CBC |
+| `02_zuck_small/zuck_small_sdcpit_vs_cpit_gurobi` | SD-CPIT, LP relaxation of the complete model, and complete integer model (relative MIP gap 1E-4), each with a time limit of 3,600 s, solved with Gurobi |
+| `02_zuck_small/zuck_small_sdcpit_highs` | SD-CPIT solved with HiGHS |
+| `02_zuck_small/zuck_small_sdcpit_cbc` | SD-CPIT solved with CBC |
+
+The log of CBC is written by the solver to the console window that started Jupyter, so the `.log` files of CBC may be empty on Windows; the results are printed in the notebook.
 
 ### Files of `11_mclaughlin`
 
