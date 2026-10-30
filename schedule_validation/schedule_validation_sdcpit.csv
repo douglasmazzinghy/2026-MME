@@ -1,0 +1,12 @@
+instance,file,horizon,periods used,blocks extracted,precedence arcs,violated arcs,max use of a limit (%),NPV recomputed,status,errors,time (s),NPV reported,difference
+newman1,newman1_solution.csv,6,3,1059,3922,0,99.9624,24176865,FEASIBLE,,0.0,24176865,0
+zuck_small,zuck_small_solution.csv,20,17,9399,145640,0,99.9999,847050785,FEASIBLE,,0.1,847050785,0
+kd,kd_solution.csv,12,10,12154,219778,0,99.9996,409106516,FEASIBLE,,0.1,409106516,0
+zuck_medium,zuck_medium_solution.csv,15,14,27387,1271207,0,99.9998,669502198,FEASIBLE,,0.4,669502198,0
+p4hd,p4hd_solution.csv,10,6,28844,738609,0,100.0,247406799,FEASIBLE,,0.3,247406799,0
+marvin,marvin_solution.csv,20,16,8516,650631,0,99.9995,856217864,FEASIBLE,,0.3,856217864,0
+w23,w23_solution.csv,12,11,49061,764786,0,99.9729,399973326,FEASIBLE,,0.6,399973326,0
+zuck_large,zuck_large_solution.csv,30,25,96821,1053105,0,100.0,57324534,FEASIBLE,,1.1,57324534,0
+sm2,sm2_solution.csv,30,22,18388,96642,0,100.0,1647381288,FEASIBLE,,0.4,1647381288,0
+mclaughlin_limit,mclaughlin_limit_solution.csv,15,10,110225,3035483,0,100.0,1078669389,FEASIBLE,,1.2,1078669389,0
+mclaughlin,mclaughlin_solution.csv,20,10,110624,73143770,0,100.0,1078712761,FEASIBLE,,13.2,1078712761,0

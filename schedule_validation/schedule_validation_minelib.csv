@@ -1,0 +1,12 @@
+instance,file,horizon,periods used,blocks extracted,precedence arcs,violated arcs,max use of a limit (%),NPV recomputed,status,errors,time (s)
+newman1,newman1_cpit_gmunoz120723.sol,6,4,1059,3922,0,99.9973,23483671,FEASIBLE,,0.0
+zuck_small,zuck_small_cpit_gmunoz120723.sol,20,17,9380,145640,0,99.9996,788652600,FEASIBLE,,0.1
+kd,kd_cpit_gmunoz120723.sol,12,10,12154,219778,0,99.9996,396858192,FEASIBLE,,0.1
+zuck_medium,zuck_medium_cpit_gmunoz120723.sol,15,14,27387,1271207,0,99.9999,615411415,FEASIBLE,,0.4
+p4hd,p4hd_cpit_gmunoz120723.sol,10,6,28844,738609,0,99.9984,246138696,FEASIBLE,,0.3
+marvin,marvin_cpit_gmunoz120723.sol,20,16,8516,650631,0,99.9868,820726048,FEASIBLE,,0.2
+w23,w23_cpit_gmunoz120723.sol,12,11,49061,764786,0,99.9729,392226063,FEASIBLE,,0.4
+zuck_large,zuck_large_cpit_gmunoz120723.sol,30,25,96821,1053105,0,99.9992,56777190,FEASIBLE,,0.8
+sm2,sm2_cpit_gmunoz120723.sol,30,22,18388,96642,0,99.9989,1645242774,FEASIBLE,,0.4
+mclaughlin_limit,mclaughlin_limit_cpit_gmunoz120723.sol,15,10,110225,3035483,0,99.9994,1073327197,FEASIBLE,,1.2
+mclaughlin,mclaughlin_cpit_gmunoz120723.sol,20,10,110624,73143770,0,99.999,1073530279,FEASIBLE,,11.5
