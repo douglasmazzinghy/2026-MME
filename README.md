@@ -41,7 +41,7 @@ To run it again, unzip `schedule_validation/mclaughlin.zip` (official file `mcla
 
 ## Data
 
-The instances are those of MineLib (Espinoza et al., 2013), available at https://mansci-web.uai.cl/minelib/Datasets.xhtml.
+The instances are those of MineLib (Espinoza et al., 2013), available at https://minelib.org/v1/.
 
 <!--
 You also can try to run online by clicking on any notebook below to open it directly in Google Colab. It will be necessary to upload the datasets.
